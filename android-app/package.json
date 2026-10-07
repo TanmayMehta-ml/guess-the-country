@@ -1,0 +1,13 @@
+{
+  "name": "guess-the-country",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sync-web": "node scripts/copy-web.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.6.9",
+    "@capacitor/cli": "^7.6.9",
+    "@capacitor/core": "^7.6.9"
+  }
+}
