@@ -2,6 +2,8 @@
 
 A personal, endless "guess the country" game for the browser and Android. Each round gives you one clue about a country and you work out the rest, then rank it against four other countries.
 
+**Play online: <https://tanmaymehta-ml.github.io/guess-the-country/>**
+
 No accounts, no backend, no ads. Everything runs offline and your scores stay on your device.
 
 ## How a round works
@@ -27,7 +29,9 @@ Each correct part is 1 point (6 per question).
 
 ## Play it
 
-Needs only Python (or any static file server).
+Online: <https://tanmaymehta-ml.github.io/guess-the-country/> (hosted free on GitHub Pages straight from `main`).
+
+To run it locally you need only Python (or any static file server).
 
 ```bash
 python -m http.server 8123
